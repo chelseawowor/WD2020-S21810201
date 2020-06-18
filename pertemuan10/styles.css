@@ -1,0 +1,52 @@
+/* class */
+/* p{
+    color: blue;
+}
+
+p.error{
+    color: red;
+}
+
+p.success.feedback{
+    color: green;
+    border: 2px solid goldenrod;
+} */
+/* .feedback{
+     border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+   
+} */
+h1.error {
+    color: maroon;
+}
+div p{
+    color: rgb(139, 17, 58);
+}
+/* ID tidak bisa lebih */
+#container{
+    background-color: lightgray;
+}
+a[href] {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: lightskyblue;
+    color: rgb(26, 19, 3);
+}
+a[href$=".com"] {
+    background-color: lightseagreen ;
+}
+
+h1:hover {
+    background-color: black;
+    color: pink;
+}
+p::selection {
+    background-color: whitesmoke;
+    color: black;
+}
+
+a::before {
+    content: "Link -";
+}
