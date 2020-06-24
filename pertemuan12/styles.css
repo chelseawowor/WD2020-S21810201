@@ -1,0 +1,10 @@
+span {
+   display: inline-block;
+   /* display: none;
+   visibility: hidden; */
+   margin: 20px;
+   padding: 20px;
+} 
+.testt{
+    display: inline;
+}
